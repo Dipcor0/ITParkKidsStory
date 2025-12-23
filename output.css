@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1420px;
+  border: 1px solid red;
+  margin: 0px auto;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+header nav > * {
+  display: inline-block;
+}
+header nav {
+  border: 1px solid greenyellow;
+}
+header nav .logo {
+  margin-right: 243px;
+  font-family: "Fredoka", sans-serif;
+  color: #F6B31F;
+  font-size: 5px;
+}
+header nav .logo h1 {
+  margin: 0px;
+  margin-top: -8px;
+  font-size: 40px;
+}
+header nav .logo h1 span {
+  color: #EA5D4A;
+}
+header nav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+header nav ul li {
+  display: inline-block;
+  font-size: 14px;
+  color: #334155;
+  margin-right: 20px;
+  font-weight: 600;
+}
+header nav .signUpTour {
+  font-size: 12px;
+  color: white;
+  font-weight: 700;
+  width: 192px;
+  height: 40px;
+  background-color: #8081BD;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 200px;
+}
+header .hero {
+  margin: 116px 0px;
+  width: 1420px;
+  vertical-align: top;
+  border: 1px solid blueviolet;
+}
+header .hero .hero1 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-right: 15px;
+}
+header .hero .hero1 > * {
+  display: inline-block;
+}
+header .hero .hero1 .img {
+  background-color: #F6B31F;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+header .hero .hero1 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+header .hero .hero1 .label span {
+  font-weight: bold;
+}
+header .hero .hero2 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-right: 15px;
+}
+header .hero .hero2 > * {
+  display: inline-block;
+}
+header .hero .hero2 .img {
+  background-color: #F3ACC8;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+header .hero .hero2 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+header .hero .hero2 .label span {
+  font-weight: bold;
+}
+header .hero .hero3 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-bottom: 25px;
+}
+header .hero .hero3 > * {
+  display: inline-block;
+}
+header .hero .hero3 .img {
+  background-color: #8081BD;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+header .hero .hero3 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+header .hero .hero3 .label span {
+  font-weight: bold;
+}
+header .hero .hero4 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-right: 15px;
+}
+header .hero .hero4 > * {
+  display: inline-block;
+}
+header .hero .hero4 .img {
+  background-color: #8081BD;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+header .hero .hero4 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+header .hero .hero4 .label span {
+  font-weight: bold;
+}
+header .hero .hero5 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-right: 15px;
+}
+header .hero .hero5 > * {
+  display: inline-block;
+}
+header .hero .hero5 .img {
+  background-color: #F6B31F;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+header .hero .hero5 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+header .hero .hero5 .label span {
+  font-weight: bold;
+}
+header .hero .hero6 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-bottom: 25px;
+}
+header .hero .hero6 > * {
+  display: inline-block;
+}
+header .hero .hero6 .img {
+  background-color: #F3ACC8;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+header .hero .hero6 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+header .hero .hero6 .label span {
+  font-weight: bold;
+}
+header .hero .hero7 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-right: 15px;
+}
+header .hero .hero7 > * {
+  display: inline-block;
+}
+header .hero .hero7 .img {
+  background-color: #F3ACC8;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+header .hero .hero7 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+header .hero .hero7 .label span {
+  font-weight: bold;
+}
+header .hero .hero8 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-right: 15px;
+}
+header .hero .hero8 > * {
+  display: inline-block;
+}
+header .hero .hero8 .img {
+  background-color: #8081BD;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+header .hero .hero8 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+header .hero .hero8 .label span {
+  font-weight: bold;
+}
+header .hero .hero9 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+}
+header .hero .hero9 > * {
+  display: inline-block;
+}
+header .hero .hero9 .img {
+  background-color: #F6B31F;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+header .hero .hero9 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+header .hero .hero9 .label span {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=output.css.map */
