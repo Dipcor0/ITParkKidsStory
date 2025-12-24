@@ -17,9 +17,11 @@ header nav > * {
   display: inline-block;
 }
 header nav {
+  margin-top: 32px;
   border: 1px solid greenyellow;
 }
 header nav .logo {
+  margin-left: 12px;
   margin-right: 243px;
   font-family: "Fredoka", sans-serif;
   color: #F6B31F;
@@ -28,7 +30,7 @@ header nav .logo {
 header nav .logo h1 {
   margin: 0px;
   margin-top: -8px;
-  font-size: 40px;
+  font-size: 45px;
 }
 header nav .logo h1 span {
   color: #EA5D4A;
@@ -41,9 +43,14 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   font-size: 14px;
-  color: #334155;
   margin-right: 20px;
   font-weight: 600;
+}
+header nav ul li a {
+  color: #334155;
+}
+header nav ul li:last-child {
+  margin-right: 0px;
 }
 header nav .signUpTour {
   font-size: 12px;
@@ -55,7 +62,7 @@ header nav .signUpTour {
   border-radius: 50px;
   text-align: center;
   line-height: 40px;
-  margin-left: 200px;
+  margin-left: 191px;
 }
 header .hero {
   margin: 116px 0px;
@@ -295,6 +302,139 @@ header .hero .hero9 .label {
 }
 header .hero .hero9 .label span {
   font-weight: bold;
+}
+
+.questions1 {
+  background-color: #8081BD;
+  color: white;
+  position: relative;
+}
+.questions1 h1 {
+  margin: 48px 0px 27px;
+  font-weight: 700;
+  font-size: 40px;
+  z-index: 0;
+}
+.questions1 .text {
+  font-size: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.questions1 form {
+  margin-top: 31px;
+  margin-bottom: 49px;
+}
+.questions1 form > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.questions1 input[type=tel] {
+  font-weight: 600;
+  font-size: 10px;
+  height: 40px;
+  width: 308px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  margin-right: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #334155;
+}
+.questions1 input[type=submit] {
+  pointer-events: none;
+  cursor: default;
+  border: none;
+  font-size: 16px;
+  color: #334155;
+  font-weight: 700;
+  width: 308px;
+  height: 40px;
+  background-color: #7d6531;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+.questions1 input[type=checkbox] {
+  margin: 0px;
+  appearance: none;
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.questions1 input[type=checkbox]:checked::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #334155;
+}
+.questions1 form:has(input[type=checkbox]:checked) input[type=submit] {
+  pointer-events: auto;
+  cursor: pointer;
+  background-color: #F6B31F;
+}
+.questions1 .agreement {
+  vertical-align: middle;
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  line-height: normal;
+  padding: 0px;
+  margin: 0px;
+}
+.questions1 .agreement br {
+  padding: 0;
+  margin: 0px;
+}
+.questions1 .images > * {
+  position: absolute;
+}
+.questions1 .images .img-child {
+  bottom: 0px;
+  right: 378px;
+  height: 448px;
+  transform: scaleX(-1);
+  z-index: 6;
+}
+.questions1 .images .img-green-off-item {
+  top: -30px;
+  right: 300px;
+  z-index: 4;
+}
+.questions1 .images .img-yellow-item {
+  bottom: 20px;
+  right: 378px;
+  z-index: 3;
+}
+.questions1 .images .img-pink-trig {
+  bottom: -30px;
+  right: 215px;
+  z-index: 3;
+}
+.questions1 .images .img-white-off-item {
+  top: 40px;
+  right: 590px;
+  z-index: 2;
+}
+.questions1 .images .img-pink-circle {
+  top: -40px;
+  right: 720px;
+  z-index: 1;
+}
+.questions1 .images .img-green-item {
+  bottom: -60px;
+  right: 690px;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=output.css.map */
