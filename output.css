@@ -437,4 +437,493 @@ header .hero .hero9 .label span {
   z-index: 1;
 }
 
+.additServ {
+  color: #8081BD;
+}
+.additServ h1 {
+  margin-top: 116px;
+  margin-bottom: 41px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.additServ .serv {
+  margin-bottom: 116px;
+}
+.additServ .serv .serv1 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv1 * {
+  display: inline-block;
+}
+.additServ .serv .serv1 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv1 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv1 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv2 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv2 * {
+  display: inline-block;
+}
+.additServ .serv .serv2 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv2 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv2 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv3 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv3 * {
+  display: inline-block;
+}
+.additServ .serv .serv3 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv3 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv3 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv4 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv4 * {
+  display: inline-block;
+}
+.additServ .serv .serv4 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv4 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv4 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv5 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv5 * {
+  display: inline-block;
+}
+.additServ .serv .serv5 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv5 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv5 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv6 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv6 * {
+  display: inline-block;
+}
+.additServ .serv .serv6 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv6 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv6 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv7 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv7 * {
+  display: inline-block;
+}
+.additServ .serv .serv7 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv7 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv7 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv8 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv8 * {
+  display: inline-block;
+}
+.additServ .serv .serv8 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv8 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv8 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv9 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv9 * {
+  display: inline-block;
+}
+.additServ .serv .serv9 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv9 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv9 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv10 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv10 * {
+  display: inline-block;
+}
+.additServ .serv .serv10 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv10 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv10 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv11 {
+  background-color: #FFF6D1;
+  display: inline-block;
+  height: 100px;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.additServ .serv .serv11 * {
+  display: inline-block;
+}
+.additServ .serv .serv11 .img {
+  text-align: center;
+  line-height: 76px;
+  height: 76px;
+  width: 76px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
+.additServ .serv .serv11 .text {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: 0;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.additServ .serv .serv11 {
+  margin-left: -5px;
+  margin-right: 19px;
+}
+.additServ .serv .serv1 {
+  width: 268px;
+}
+.additServ .serv .serv1 .text {
+  right: 90px;
+}
+.additServ .serv .serv1 {
+  margin-left: 0px;
+  margin-bottom: 29px;
+}
+.additServ .serv .serv2 {
+  width: 557px;
+}
+.additServ .serv .serv2 .text {
+  right: 234px;
+}
+.additServ .serv .serv3 {
+  width: 268px;
+}
+.additServ .serv .serv3 .text {
+  right: 90px;
+}
+.additServ .serv .serv4 {
+  width: 268px;
+}
+.additServ .serv .serv4 .text {
+  right: 90px;
+}
+.additServ .serv .serv4 {
+  margin-right: 0px;
+}
+.additServ .serv .serv5 {
+  width: 363px;
+}
+.additServ .serv .serv5 .text {
+  right: 138px;
+}
+.additServ .serv .serv5 {
+  margin-left: 0px;
+  margin-bottom: 29px;
+}
+.additServ .serv .serv6 {
+  width: 268px;
+}
+.additServ .serv .serv6 .text {
+  right: 90px;
+}
+.additServ .serv .serv7 {
+  width: 363px;
+}
+.additServ .serv .serv7 .text {
+  right: 138px;
+}
+.additServ .serv .serv8 {
+  width: 363px;
+}
+.additServ .serv .serv8 .text {
+  right: 138px;
+  width: 250px;
+}
+.additServ .serv .serv8 {
+  margin-right: 0px;
+}
+.additServ .serv .serv9 {
+  width: 460px;
+}
+.additServ .serv .serv9 .text {
+  right: 186px;
+  width: 350px;
+}
+.additServ .serv .serv9 {
+  margin-left: 0px;
+  margin-bottom: 29px;
+}
+.additServ .serv .serv10 {
+  width: 460px;
+}
+.additServ .serv .serv10 .text {
+  right: 186px;
+  width: 350px;
+}
+.additServ .serv .serv11 {
+  width: 461px;
+}
+.additServ .serv .serv11 .text {
+  right: 186px;
+  width: 350px;
+}
+.additServ .serv .serv11 {
+  margin-right: 0px;
+}
+
 /*# sourceMappingURL=output.css.map */

@@ -4,6 +4,7 @@ $color-red:#EA5D4A;
 $color-white:white;
 $color-yellow: #F6B31F;
 $color-dark-yellow: #7d6531;
+$color-light-yellow:#FFF6D1;
 $color-pink:#F3ACC8;
 
 $color-list:($color-yellow $color-pink $color-violet);
@@ -285,6 +286,142 @@ header{
             bottom: -60px;
             right: 690px;
             z-index: 1;
+        }
+    }
+}
+
+.additServ{
+    color: $color-violet;
+    h1{
+        margin-top: 116px;
+        margin-bottom: 41px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .serv{
+        margin-bottom: 116px;
+        @for $i from 1 through 11{
+            .serv#{$i}{
+                background-color: $color-light-yellow;
+                display: inline-block;
+                height: 100px;
+                border-radius: 10px;
+                padding: 12px;
+                box-sizing: border-box;
+                position: relative;
+
+                * {
+                    display: inline-block;
+                }
+                .img{
+                    text-align: center;
+                    line-height: 76px;
+
+                    height: 76px;
+                    width: 76px;
+                    font-size: 50px;
+                    
+                    background-color: $color-white;
+                    border-radius: 5px;
+                }
+                .text{
+                    position: absolute;
+                    top: 50%;
+                    transform: translate(50%, -50%);
+                    right: 0;
+                    color: $color-dark-gray;
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-align: center;
+                }
+                
+                margin-left: -5px;
+                margin-right: 19px;
+            }
+        }
+
+        .serv1{
+            width: 268px;
+            .text{
+                right: 90px;
+            }
+            margin-left: 0px;
+            margin-bottom: 29px;
+        }
+        .serv2{
+            width: 557px;
+            .text{
+                right: 234px;
+                
+            }
+        }
+        .serv3{
+            width: 268px;
+            .text{
+                right: 90px;   
+            }
+        }
+        .serv4{
+            width: 268px;
+            .text{
+                right: 90px; 
+            }
+            margin-right: 0px;
+        }
+        //
+        .serv5{
+            width: 363px;
+            .text{
+                right: 138px; 
+            }
+            margin-left: 0px;
+            margin-bottom: 29px;
+        }
+        .serv6{
+            width: 268px;
+            .text{
+                right: 90px;   
+            }
+        }
+        .serv7{
+            width: 363px;
+            .text{
+                right: 138px;   
+            }
+        }
+        .serv8{
+            width: 363px;
+            .text{
+                right: 138px;   
+                width: 250px;
+            }
+            margin-right: 0px;
+        }
+        //
+        .serv9{
+            width: 460px;
+            .text{
+                right: 186px;   
+                width: 350px;
+            }
+            margin-left: 0px;
+            margin-bottom: 29px;
+        }
+        .serv10{
+            width: 460px;
+            .text{
+                right: 186px;   
+                width: 350px;
+            }
+        }
+        .serv11{
+            width: 461px;
+            .text{
+                right: 186px;   
+                width: 350px;
+            }
+            margin-right: 0px;
         }
     }
 }
