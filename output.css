@@ -978,6 +978,10 @@ header .hero .hero7 {
 .advantages .block1 .label span {
   font-weight: bold;
 }
+.advantages .block1 .label {
+  font-weight: 700;
+  font-size: 20px;
+}
 .advantages .block2 {
   display: inline-block;
   width: 460px;
@@ -1004,6 +1008,10 @@ header .hero .hero7 {
 .advantages .block2 .label span {
   font-weight: bold;
 }
+.advantages .block2 .label {
+  font-weight: 700;
+  font-size: 20px;
+}
 .advantages .block3 {
   display: inline-block;
   width: 460px;
@@ -1028,6 +1036,10 @@ header .hero .hero7 {
 }
 .advantages .block3 .label span {
   font-weight: bold;
+}
+.advantages .block3 .label {
+  font-weight: 700;
+  font-size: 20px;
 }
 .advantages .block4 {
   display: inline-block;
@@ -1056,6 +1068,10 @@ header .hero .hero7 {
 .advantages .block4 .label span {
   font-weight: bold;
 }
+.advantages .block4 .label {
+  font-weight: 700;
+  font-size: 20px;
+}
 .advantages .block5 {
   display: inline-block;
   width: 460px;
@@ -1082,6 +1098,10 @@ header .hero .hero7 {
 .advantages .block5 .label span {
   font-weight: bold;
 }
+.advantages .block5 .label {
+  font-weight: 700;
+  font-size: 20px;
+}
 .advantages .block6 {
   display: inline-block;
   width: 460px;
@@ -1106,6 +1126,10 @@ header .hero .hero7 {
 }
 .advantages .block6 .label span {
   font-weight: bold;
+}
+.advantages .block6 .label {
+  font-weight: 700;
+  font-size: 20px;
 }
 .advantages .block4 {
   margin-bottom: 0px;

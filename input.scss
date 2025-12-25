@@ -465,7 +465,11 @@ header{
 
     @for $i from 1 through 6{
         .block#{$i}{
-            @include create_block($i)
+            @include create_block($i);
+            .label{
+                font-weight: 700;
+                font-size: 20px;
+            }
         }
     }
     .block4{
