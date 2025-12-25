@@ -5,7 +5,6 @@ body {
 
 .container {
   width: 1420px;
-  border: 1px solid red;
   margin: 0px auto;
 }
 
@@ -18,7 +17,6 @@ header nav > * {
 }
 header nav {
   margin-top: 32px;
-  border: 1px solid greenyellow;
 }
 header nav .logo {
   margin-left: 12px;
@@ -68,7 +66,6 @@ header .hero {
   margin: 116px 0px;
   width: 1420px;
   vertical-align: top;
-  border: 1px solid blueviolet;
 }
 header .hero .hero1 {
   display: inline-block;
@@ -309,13 +306,16 @@ header .hero .hero7 {
 }
 
 .questions1 {
+  padding-top: 48px;
+  padding-bottom: 49px;
   background-color: #8081BD;
   color: white;
   position: relative;
   border-radius: 20px;
 }
 .questions1 h1 {
-  margin: 48px 0px 27px;
+  margin: 0px;
+  margin-bottom: 27px;
   font-weight: 700;
   font-size: 40px;
   z-index: 0;
@@ -327,7 +327,6 @@ header .hero .hero7 {
 }
 .questions1 form {
   margin-top: 31px;
-  margin-bottom: 49px;
 }
 .questions1 form > * {
   display: inline-block;
@@ -1116,6 +1115,8 @@ header .hero .hero7 {
 }
 
 .questions2 {
+  padding-top: 48px;
+  padding-bottom: 49px;
   background-color: #FFF6D1;
   color: #334155;
   position: relative;
@@ -1123,7 +1124,8 @@ header .hero .hero7 {
   margin-bottom: 55px;
 }
 .questions2 h1 {
-  margin: 48px 0px 27px;
+  margin: 0px;
+  margin-bottom: 27px;
   font-weight: 700;
   font-size: 40px;
   width: 665px;
@@ -1135,7 +1137,6 @@ header .hero .hero7 {
 }
 .questions2 form {
   margin-top: 31px;
-  margin-bottom: 49px;
 }
 .questions2 form > * {
   display: inline-block;

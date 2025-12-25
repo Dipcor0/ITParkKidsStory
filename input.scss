@@ -77,7 +77,7 @@ body{
 
 .container{
     width: 1420px;
-    border: 1px solid red;
+    //border: 1px solid red;
     margin: 0px auto;
 }
 
@@ -92,7 +92,7 @@ header{
     }
     nav{
         margin-top: 32px;
-        border: 1px solid greenyellow;
+        //border: 1px solid greenyellow;
         .logo{
             margin-left: 12px;
             margin-right: 243px;
@@ -140,7 +140,7 @@ header{
         width: 1420px;
         vertical-align: top;
 
-        border: 1px solid blueviolet;
+        //border: 1px solid blueviolet;
         @for $i from 1 through 9{
             .hero#{$i}{
                 @include create_block($i);
@@ -153,6 +153,8 @@ header{
 }
 
 .questions1{
+    padding-top: 48px;
+    padding-bottom: 49px;
     background-color: $color-violet;
     color: $color-white;
     position: relative;
@@ -160,8 +162,9 @@ header{
 
 
     h1{
-        margin: 48px 0px 27px;
-
+        //margin: 48px 0px 27px;
+        margin: 0px;
+        margin-bottom: 27px;
         font-weight: 700;
         font-size: 40px;
         z-index: 0;
@@ -175,7 +178,7 @@ header{
 
     form{
         margin-top: 31px;
-        margin-bottom: 49px;
+        //margin-bottom: 49px;
     }
     form > *{
         display: inline-block;
@@ -474,6 +477,9 @@ header{
 }
 
 .questions2{
+    padding-top: 48px;
+    padding-bottom: 49px;
+
     background-color: $color-light-yellow;
     color: $color-dark-gray;
     position: relative;
@@ -481,7 +487,9 @@ header{
     margin-bottom: 55px;
 
     h1{
-        margin: 48px 0px 27px;
+        //margin: 48px 0px 27px;
+        margin: 0px;
+        margin-bottom: 27px;
 
         font-weight: 700;
         font-size: 40px;
@@ -496,7 +504,7 @@ header{
 
     form{
         margin-top: 31px;
-        margin-bottom: 49px;
+        //margin-bottom: 49px;
     }
     form > *{
         display: inline-block;
