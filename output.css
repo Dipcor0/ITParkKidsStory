@@ -74,6 +74,7 @@ header .hero .hero1 {
   display: inline-block;
   width: 460px;
   height: 76px;
+  margin-bottom: 25px;
   margin-right: 15px;
 }
 header .hero .hero1 > * {
@@ -126,7 +127,6 @@ header .hero .hero3 {
   display: inline-block;
   width: 460px;
   height: 76px;
-  margin-bottom: 25px;
 }
 header .hero .hero3 > * {
   display: inline-block;
@@ -152,6 +152,7 @@ header .hero .hero4 {
   display: inline-block;
   width: 460px;
   height: 76px;
+  margin-bottom: 25px;
   margin-right: 15px;
 }
 header .hero .hero4 > * {
@@ -204,7 +205,6 @@ header .hero .hero6 {
   display: inline-block;
   width: 460px;
   height: 76px;
-  margin-bottom: 25px;
 }
 header .hero .hero6 > * {
   display: inline-block;
@@ -230,6 +230,7 @@ header .hero .hero7 {
   display: inline-block;
   width: 460px;
   height: 76px;
+  margin-bottom: 25px;
   margin-right: 15px;
 }
 header .hero .hero7 > * {
@@ -303,11 +304,15 @@ header .hero .hero9 .label {
 header .hero .hero9 .label span {
   font-weight: bold;
 }
+header .hero .hero7 {
+  margin-bottom: 0px;
+}
 
 .questions1 {
   background-color: #8081BD;
   color: white;
   position: relative;
+  border-radius: 20px;
 }
 .questions1 h1 {
   margin: 48px 0px 27px;
@@ -359,6 +364,7 @@ header .hero .hero9 .label span {
   margin-bottom: 20px;
 }
 .questions1 input[type=checkbox] {
+  vertical-align: middle;
   margin: 0px;
   appearance: none;
   background-color: white;
@@ -383,17 +389,22 @@ header .hero .hero9 .label span {
   cursor: pointer;
   background-color: #F6B31F;
 }
+.questions1 .check {
+  position: relative;
+}
 .questions1 .agreement {
+  position: absolute;
+  top: 50%;
+  left: 132px;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 200px;
   vertical-align: middle;
   font-size: 10px;
   font-weight: 600;
   color: white;
   line-height: normal;
   padding: 0px;
-  margin: 0px;
-}
-.questions1 .agreement br {
-  padding: 0;
   margin: 0px;
 }
 .questions1 .images > * {
@@ -924,6 +935,330 @@ header .hero .hero9 .label span {
 }
 .additServ .serv .serv11 {
   margin-right: 0px;
+}
+
+.advantages h1 {
+  margin: 0px;
+  margin-bottom: 24px;
+  color: #8081BD;
+  font-size: 40px;
+  font-weight: 700;
+}
+.advantages label {
+  font-weight: 500;
+  font-size: 20px;
+  color: #334155;
+  width: 1000px;
+  display: inline-block;
+  margin-bottom: 58px;
+}
+.advantages .block1 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+}
+.advantages .block1 > * {
+  display: inline-block;
+}
+.advantages .block1 .img {
+  background-color: #F6B31F;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+.advantages .block1 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+.advantages .block1 .label span {
+  font-weight: bold;
+}
+.advantages .block2 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-right: 15px;
+}
+.advantages .block2 > * {
+  display: inline-block;
+}
+.advantages .block2 .img {
+  background-color: #F3ACC8;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+.advantages .block2 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+.advantages .block2 .label span {
+  font-weight: bold;
+}
+.advantages .block3 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+}
+.advantages .block3 > * {
+  display: inline-block;
+}
+.advantages .block3 .img {
+  background-color: #8081BD;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+.advantages .block3 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+.advantages .block3 .label span {
+  font-weight: bold;
+}
+.advantages .block4 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-bottom: 25px;
+  margin-right: 15px;
+}
+.advantages .block4 > * {
+  display: inline-block;
+}
+.advantages .block4 .img {
+  background-color: #8081BD;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+.advantages .block4 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+.advantages .block4 .label span {
+  font-weight: bold;
+}
+.advantages .block5 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+  margin-right: 15px;
+}
+.advantages .block5 > * {
+  display: inline-block;
+}
+.advantages .block5 .img {
+  background-color: #F6B31F;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+.advantages .block5 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+.advantages .block5 .label span {
+  font-weight: bold;
+}
+.advantages .block6 {
+  display: inline-block;
+  width: 460px;
+  height: 76px;
+}
+.advantages .block6 > * {
+  display: inline-block;
+}
+.advantages .block6 .img {
+  background-color: #F3ACC8;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+.advantages .block6 .label {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #334155;
+}
+.advantages .block6 .label span {
+  font-weight: bold;
+}
+.advantages .block4 {
+  margin-bottom: 0px;
+}
+.advantages .blocks {
+  margin-bottom: 116px;
+}
+
+.questions2 {
+  background-color: #FFF6D1;
+  color: #334155;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 55px;
+}
+.questions2 h1 {
+  margin: 48px 0px 27px;
+  font-weight: 700;
+  font-size: 40px;
+  width: 665px;
+}
+.questions2 .text {
+  font-size: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.questions2 form {
+  margin-top: 31px;
+  margin-bottom: 49px;
+}
+.questions2 form > * {
+  display: inline-block;
+  vertical-align: top;
+}
+.questions2 input[type=tel] {
+  font-weight: 600;
+  font-size: 10px;
+  height: 40px;
+  width: 308px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  margin-right: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #334155;
+  background-color: #FDDC4E;
+}
+.questions2 input[type=submit] {
+  pointer-events: none;
+  cursor: default;
+  border: none;
+  font-size: 16px;
+  color: #505863;
+  font-weight: 700;
+  width: 308px;
+  height: 40px;
+  background-color: #59231c;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+.questions2 input[type=checkbox] {
+  vertical-align: middle;
+  margin: 0px;
+  appearance: none;
+  background-color: #334155;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.questions2 input[type=checkbox]:checked::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+.questions2 form:has(input[type=checkbox]:checked) input[type=submit] {
+  pointer-events: auto;
+  cursor: pointer;
+  background-color: #EA5D4A;
+  color: white;
+}
+.questions2 .check {
+  position: relative;
+}
+.questions2 .agreement {
+  position: absolute;
+  top: 50%;
+  left: 132px;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+  font-size: 10px;
+  font-weight: 600;
+  color: #334155;
+  line-height: normal;
+  padding: 0px;
+  margin: 0px;
+}
+.questions2 .agreement br {
+  padding: 0;
+  margin: 0px;
+}
+.questions2 .images > * {
+  position: absolute;
+  right: 0;
+}
+.questions2 .images .img-child {
+  bottom: 0;
+  right: 369px;
+  z-index: 5;
+}
+.questions2 .images .img-blue-off-item {
+  bottom: 25px;
+  right: 670px;
+  z-index: 4;
+}
+.questions2 .images .img-yellow-item {
+  bottom: -10px;
+  right: 390px;
+  z-index: 3;
+}
+.questions2 .images .img-red-off-item {
+  bottom: 10px;
+  right: 300px;
+  z-index: 2;
+}
+.questions2 .images .img-blue-item {
+  bottom: 100px;
+  right: 240px;
+  z-index: 1;
+}
+.questions2 .images .img-green-trig {
+  bottom: 300px;
+  right: 780px;
+  z-index: 1;
+}
+.questions2 .images .img-green-el {
+  bottom: 210px;
+  right: 605px;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=output.css.map */
