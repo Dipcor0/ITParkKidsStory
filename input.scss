@@ -162,21 +162,28 @@ header{
 
 
     h1{
+        position: relative;
+        z-index: 100;
+
         //margin: 48px 0px 27px;
         margin: 0px;
         margin-bottom: 27px;
         font-weight: 700;
         font-size: 40px;
-        z-index: 0;
+        //z-index: 0;
     }
 
     .text{
+        position: relative;
+        z-index: 10;
         font-size: 20px;
         font-weight: 500;
         font-size: 20px;
     }
 
     form{
+        position: relative;
+        z-index: 10;
         margin-top: 31px;
         //margin-bottom: 49px;
     }
@@ -491,6 +498,8 @@ header{
     margin-bottom: 55px;
 
     h1{
+        position: relative;
+        z-index: 10;
         //margin: 48px 0px 27px;
         margin: 0px;
         margin-bottom: 27px;
@@ -500,6 +509,8 @@ header{
         width: 665px;
     }
     .text{
+        position: relative;
+        z-index: 10;
         font-size: 20px;
 
         font-weight: 500;
@@ -507,6 +518,9 @@ header{
     }
 
     form{
+        position: relative;
+        z-index: 10;
+
         margin-top: 31px;
         //margin-bottom: 49px;
     }

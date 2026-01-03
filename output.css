@@ -314,18 +314,23 @@ header .hero .hero7 {
   border-radius: 20px;
 }
 .questions1 h1 {
+  position: relative;
+  z-index: 100;
   margin: 0px;
   margin-bottom: 27px;
   font-weight: 700;
   font-size: 40px;
-  z-index: 0;
 }
 .questions1 .text {
+  position: relative;
+  z-index: 10;
   font-size: 20px;
   font-weight: 500;
   font-size: 20px;
 }
 .questions1 form {
+  position: relative;
+  z-index: 10;
   margin-top: 31px;
 }
 .questions1 form > * {
@@ -1148,6 +1153,8 @@ header .hero .hero7 {
   margin-bottom: 55px;
 }
 .questions2 h1 {
+  position: relative;
+  z-index: 10;
   margin: 0px;
   margin-bottom: 27px;
   font-weight: 700;
@@ -1155,11 +1162,15 @@ header .hero .hero7 {
   width: 665px;
 }
 .questions2 .text {
+  position: relative;
+  z-index: 10;
   font-size: 20px;
   font-weight: 500;
   font-size: 20px;
 }
 .questions2 form {
+  position: relative;
+  z-index: 10;
   margin-top: 31px;
 }
 .questions2 form > * {
